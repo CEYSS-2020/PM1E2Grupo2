@@ -14,8 +14,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="-353dp">
 
-        <SurfaceView
-            android:id="@+id/surface_view_video"
+        <VideoView
+            android:id="@+id/VideoView1"
             android:layout_width="wrap_content"
             android:layout_height="202dp"
             android:layout_alignParentStart="true"
@@ -28,10 +28,10 @@
             android:layout_marginEnd="84dp" />
 
         <Button
-            android:id="@+id/btn_grabar"
+            android:id="@+id/boton_de_grabar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/surface_view_video"
+            android:layout_below="@+id/VideoView1"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
             android:layout_marginStart="163dp"
