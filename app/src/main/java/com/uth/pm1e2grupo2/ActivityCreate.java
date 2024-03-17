@@ -48,6 +48,7 @@ public class ActivityCreate extends AppCompatActivity {
     static final int peticion_video = 102;
     static final int peticion_seleccionar_video = 104;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -133,6 +134,8 @@ public class ActivityCreate extends AppCompatActivity {
         });
     }
 
+
+    //METODOS
     private void showMessage(String message) {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
@@ -192,7 +195,6 @@ public class ActivityCreate extends AppCompatActivity {
     }
 
 
-
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull
     int[] grantResults) {
@@ -206,7 +208,6 @@ public class ActivityCreate extends AppCompatActivity {
             }
         }
     }
-
 
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -224,51 +225,10 @@ public class ActivityCreate extends AppCompatActivity {
         }
     }
 
-
-
-
-    private String crearNombreArchivoMP4() {
-        String fecha = new SimpleDateFormat("yyyyMMss_HHmmss").format(new Date());
-        String nombre = fecha + ".mp4";
-        return nombre;
-    }
-
     private void abrirAlmacenamiento() {
         Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
         intent.setType("video/*");
         startActivityForResult(intent, peticion_seleccionar_video);
-    }
-
-    private void guardarVideo() {
-        videoView.stopPlayback();
-        videoView.setVideoURI(null);
-
-        if (videoUri != null) {
-            // Obtener la URL del video
-            String videoURL = videoUri.toString();
-
-            // Continuar con la lógica para guardar el contacto con la URL del video
-            // ...
-
-            try {
-                AssetFileDescriptor videoAsset = getContentResolver().openAssetFileDescriptor(videoUri, "r");
-                FileInputStream in = videoAsset.createInputStream();
-                FileOutputStream archivo = openFileOutput(crearNombreArchivoMP4(), Context.MODE_PRIVATE);
-                byte[] buf = new byte[1024];
-                int len;
-
-                while ((len = in.read(buf)) > 0) {
-                    archivo.write(buf, 0, len);
-                }
-                Toast.makeText(this, "Video guardado correctamente en Almacenamiento local", Toast.LENGTH_SHORT).show();
-            } catch (IOException e) {
-                Toast.makeText(this, "Problemas al guardar el video en el Almacenamiento local", Toast.LENGTH_SHORT).show();
-            }
-
-            showMessage("Video guardado correctamente en Almacenamiento local");
-        } else {
-            showMessage("No se ha seleccionado ningún video");
-        }
     }
 
 
