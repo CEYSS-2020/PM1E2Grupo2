@@ -38,7 +38,7 @@
             android:layout_marginTop="28dp"
             android:layout_marginEnd="160dp"
             android:padding="16dp"
-            android:text="Grabar" />
+            android:text="Ver" />
 
     </RelativeLayout>
 
@@ -62,6 +62,7 @@
             android:id="@+id/txt_nombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:editable="false"
             android:hint="Ingrese el nombre" />
 
         <TextView
@@ -111,7 +112,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="Guardar contacto" />
+            android:text="Editar contacto" />
 
         <Button
             android:id="@+id/btn_contactos_guardados"

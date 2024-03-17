@@ -7,15 +7,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.content.res.AssetFileDescriptor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -24,12 +21,6 @@ import android.widget.VideoView;
 
 import com.google.gson.JsonObject;
 import com.uth.pm1e2grupo2.rests.ApiInterface;
-
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -54,7 +45,7 @@ public class ActivityCreate extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create);
 
-        btnGrabarVideo = findViewById(R.id.boton_de_grabar);
+        btnGrabarVideo = findViewById(R.id.btnVer);
         btn_guardar_contacto = findViewById(R.id.btn_guardar_contacto);
         btn_contactos_guardados = findViewById(R.id.btn_contactos_guardados);
 
