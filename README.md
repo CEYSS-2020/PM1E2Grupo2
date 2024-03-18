@@ -61,8 +61,12 @@ DB_PORT=3306
 DB_DATABASE=pm1e2grupo2
 DB_USERNAME=root
 DB_PASSWORD=
-```
 
+// Importar la Base de Datos
+Database.sql
+```
+Visitar la ruta, ejemplo:
+`http://localhost:8081/app/BackOffice_Laravel`
 
 ## Demo del BackOffice y App Android 
 
