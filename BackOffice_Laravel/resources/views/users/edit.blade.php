@@ -42,7 +42,6 @@
         {{ Form::label('phone', __('Phone Number'), ['class' => 'form-label']) }}
         {!! Form::number('phone', null, [
             'autofocus' => '',
-            'required' => true,
             'autocomplete' => 'off',
             'placeholder' => 'Enter phone Number',
             'class' => 'form-control',

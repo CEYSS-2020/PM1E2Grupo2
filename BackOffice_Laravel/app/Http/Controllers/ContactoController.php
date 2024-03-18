@@ -46,6 +46,8 @@ class ContactoController extends Controller
             'telefono' => 'required',
             'avatar' => 'required',
             'cod_pais' => 'required',
+            'latitud' => 'required',
+            'longitud' => 'required',
         ]);
         if ($request->hasFile('avatar')) {
             $request->validate([

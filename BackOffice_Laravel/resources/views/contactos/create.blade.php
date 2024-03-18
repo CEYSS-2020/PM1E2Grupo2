@@ -134,17 +134,17 @@
                     </div>
                     <div class="row">
                         <div class="form-group col-md-6">
-                            <input type="text" id="latitud" name="latitud" class="form-control" placeholder="latitude">
+                            <input type="text" id="latitud" required name="latitud" class="form-control" placeholder="latitude">
                         </div>
                         <div class="form-group col-md-6">
-                            <input type="text" id="longitud" name="longitud" class="form-control" placeholder="longitud">
+                            <input type="text" id="longitud" required name="longitud" class="form-control" placeholder="longitud">
                         </div>
                     </div>
                 </div>
             </div>
             <div class="card-footer">
                 <div class="float-end">
-                    <a href="{{ route('zoos.index') }}" class="btn btn-secondary">{{ __('Cancel') }}</a>
+                    <a href="{{ route('contactos.index') }}" class="btn btn-secondary">{{ __('Cancel') }}</a>
                     {{ Form::button(__('Save'), ['type' => 'submit', 'class' => 'btn btn-primary']) }}
                 </div>
                 {!! Form::close() !!}
