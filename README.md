@@ -45,9 +45,26 @@
 - [x] Botones de accion rapida en pantalla del Listado
 
 
+## Instalar BackOffice/APIRest
+
+Ir a la carpeta `BackOffice_Laravel` e instalar las dependencias
+```groovy
+// Debe tener instalado composer
+// Ejecutar para instalar dependencias
+composer i
+
+
+// Cambiar cadena de conexion
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=pm1e2grupo2
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+
 ## Demo del BackOffice y App Android 
-
-
 
 **Link del BackOffice:** 
 [https://pm1e2grupo2.kadamy.app](https://pm1e2grupo2.kadamy.app) 
@@ -56,9 +73,6 @@
 User: user@kadamy.app
 Pass: 123456
 ```
-**Documentacion de la API:** 
-[https://documenter.getpostman.com/view/12837303/2sA2xnyVaQ](https://documenter.getpostman.com/view/12837303/2sA2xnyVaQ) 
-
 
 ## Screenshots
 
