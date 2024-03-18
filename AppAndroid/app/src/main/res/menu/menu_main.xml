@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fabCompartir"
+        android:title="Compartir" />
+    <item
+        android:id="@+id/fabEliminar"
+        android:title="Eliminar" />
+</menu>

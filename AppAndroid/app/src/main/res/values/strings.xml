@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Examen 2 Grupo No.2</string>
+
+    <string name="hint_pais">Pais</string>
+    <string name="hint_nombres">Nombre</string>
+    <string name="hint_telefono">Telefono</string>
+    <string name="hint_nota">Nota</string>
+    <string name="hint_foto">Foto</string>
+    <string name="btn_lista_contactos">Lista Contactos</string>
+
+    <string name="btn_guarda">Guardar Contacto</string>
+    <string name="btn_editar">Actualizar Contacto</string>
+    <string name="menu_nuevo">Nuevo Contacto</string>
+
+    <string name="msg_about_version">Version</string>
+    <string name="dialog_option_ok">Aceptar</string>
+    <string name="app_copyright">Copyright © 2024 \nProg. Movil 1 - Examen2. \nAll right reserved</string>
+    <string name="app_integrantes">Yefrin Amaya - 201710010063 \nIsmael Mayorga - 202030070024 \nJuan Angel Trejo - 201910010070 \nDamaris Muñoz - 202110050094 \nMarlon Bonilla - 202210070066 \nKevin Perez - 201710010290</string>
+
+    <string name="share_content">Me gustaría compartir el siguiente contacto contigo.</string>
+    <string name="img_content_description">Foto</string>
+
+    <string name="dialog_success">Éxito!</string>
+    <string name="dialog_yes">Si</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_ok">Aceptar</string>
+    <string name="dialog_cancel">Cancelar</string>
+
+    <string name="title_please_wait">Porfavor espere&#8230;</string>
+
+</resources>
