@@ -1,4 +1,4 @@
-# Programacion Movil 1 -PM2E1Grupo2📱
+# Programacion Movil 1 -PM1E2Grupo2📱
 
 <br />
 <p align="center">
