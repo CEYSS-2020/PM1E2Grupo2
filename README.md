@@ -62,15 +62,27 @@ Pass: 123456
 
 ## Screenshots
 
-<img src="https://pm1e2grupo2.kadamy.app/storage/app/demoapp/p.jpg" width="215"/> 
-<img src="https://pm1e2grupo2.kadamy.app/storage/app/demoapp/2.jpg" width="215"/> 
-<img src="https://pm1e2grupo2.kadamy.app/storage/app/demoapp/3.jpg" width="215"/>
-<img src="https://pm1e2grupo2.kadamy.app/storage/app/demoapp/4.jpg" width="215"/>
-<img src="https://pm1e2grupo2.kadamy.app/storage/app/demoapp/5.jpg" width="215"/>
-<img src="https://pm1e2grupo2.kadamy.app/storage/app/demoapp/6.jpg" width="215"/>
-<img src="https://pm1e2grupo2.kadamy.app/storage/app/demoapp/7.jpg" width="215"/>
-<img src="https://pm1e2grupo2.kadamy.app/storage/app/demoapp/8.jpg" width="215"/>
-<img src="https://pm1e2grupo2.kadamy.app/storage/app/demoapp/9.jpg" width="215"/>
+<table>
+  	<tr>
+	<td align="center"><img src="https://pm1e2grupo2.kadamy.app/storage/app/demoapp/p.jpg" /></td>
+	<td align="center"><img src="https://pm1e2grupo2.kadamy.app/storage/app/demoapp/2.jpg" /></td>
+	<td align="center"><img src="https://pm1e2grupo2.kadamy.app/storage/app/demoapp/3.jpg" /></td>
+	</tr>
+ 	<tr>
+	<td align="center"><img src="https://pm1e2grupo2.kadamy.app/storage/app/demoapp/4.jpg" /></td>
+	<td align="center"><img src="https://pm1e2grupo2.kadamy.app/storage/app/demoapp/5.jpg" /></td>
+	<td align="center"><img src="https://pm1e2grupo2.kadamy.app/storage/app/demoapp/6.jpg" /></td>
+	</tr>
+	<tr>
+	<td align="center"><img src="https://pm1e2grupo2.kadamy.app/storage/app/demoapp/7.jpg" /></td>
+	<td align="center"><img src="https://pm1e2grupo2.kadamy.app/storage/app/demoapp/8.jpg" /></td>
+	<td align="center"><img src="https://pm1e2grupo2.kadamy.app/storage/app/demoapp/9.jpg" /></td>
+	</tr>
+</td>
+	  
+
+</table>
+
 
 ## Autores ✒️
 
