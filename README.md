@@ -17,12 +17,11 @@
 
 ## Instalar App 📱
 
-**Link del APK:** [https://drive.google.com/file/d/1iWokSY96HPf9MzhbE5iboXg9nLQyx-b4/view?usp=sharing](https://drive.google.com/file/d/1iWokSY96HPf9MzhbE5iboXg9nLQyx-b4/view?usp=sharing) 
+**Link del APK:** [https://drive.google.com/file/d/10DO83Cg-_DDgXiOAbSaR0b4Q6yqiblAl/view?usp=sharing](https://drive.google.com/file/d/10DO83Cg-_DDgXiOAbSaR0b4Q6yqiblAl/view?usp=sharing) 
 
 ### Demo del App (APK)
 
-[![Get it on the Play Store](https://raw.githubusercontent.com/leinardi/FloatingActionButtonSpeedDial/release/art/playstore_getiton.png)](https://play.google.com/store/apps/details?id=com.leinardi.android.speeddial.sample)
-
+[![Get it on the Play Store](https://raw.githubusercontent.com/leinardi/FloatingActionButtonSpeedDial/release/art/playstore_getiton.png)](https://drive.google.com/file/d/10DO83Cg-_DDgXiOAbSaR0b4Q6yqiblAl/view?usp=sharing)
 
 
 
